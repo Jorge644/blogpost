@@ -1,16 +1,14 @@
 import React from "react"
-
-import CardNew from '../components/CardNew';
-import HelloWord from '../components/HelloWorld';
+import CardNewList from '../components/CardNewList'
+import "../assets/styles/App.css";
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
     return(
-        <div>
-            <HelloWord />
-            <CardNew />  
-        </div>      
+        <div className="container">
+            <CardNewList/>
+        </div>
     )
 }
 
