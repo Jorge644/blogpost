@@ -1,15 +1,19 @@
 import React from "react"
 
-import CardNew from '../components/CardNew';
-import HelloWord from '../components/HelloWorld';
+
+import Header from '../components/Header';
+import Footer from "../components/Footer";
+import Main from "../components/Main";
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 const App = () => {
     return(
         <div>
-            <HelloWord />
-            <CardNew />  
+            <Header />
+            <Main /> 
+            <Footer />
         </div>      
     )
 }
