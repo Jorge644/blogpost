@@ -5,7 +5,7 @@ import React from "react"
 
 const CardNew = (props) => {
     return(
-        <div className="card rounded-3 m-2" style={{width:"25rem", height: "23rem"}}>
+        <div className="card rounded-3 m-2" style={{width:"22rem", height: "23rem"}}>
             <div>
                 <img 
                     src={props.sourceImage} 

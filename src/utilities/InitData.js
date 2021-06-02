@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/data"
+const API = "http://localhost:3000/data";
 
 const getInitData = async () => {
     try{
